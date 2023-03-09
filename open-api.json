@@ -3,6 +3,21 @@
     "consumes": [
         "application/json"
     ],
+  "securityDefinitions": {
+    "basicAuth": {
+      "type": "basic"
+    }
+  }, 
+  "parameters": {
+    "api_key": {
+      "in": "query",
+      "name": "api_key",
+      "description": "API key for authentication",
+      "required": true,
+      "type": "string"
+    }
+  },
+  
     "definitions": {
         "AddressResponse": {
             "properties": {
@@ -1759,7 +1774,7 @@
             "type": "object"
         }
     },
-    "host": "gateway.eod-stock-api.site",
+    "host": "https://gateway.eod-stock-api.site",
     "info": {
         "contact": {
             "email": "info@eod-stock-api.site",
