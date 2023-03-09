@@ -2261,7 +2261,15 @@
                         "type": "string"
                     }
                 ],
-                
+                "responses": {
+                    "default": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/OptionsResponse"
+                        }
+                    }
+                },
+
                 "tags": [
                     "fundamentals"
                 ]
@@ -2284,6 +2292,14 @@
                         "type": "string"
                     }
                 ],
+                "responses": {
+                    "default": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/OptionsResponse"
+                        }
+                    }
+                },
                 
                 "tags": [
                     "fundamentals"
@@ -2307,6 +2323,14 @@
                         "type": "string"
                     }
                 ],
+                "responses": {
+                    "default": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/OptionsResponse"
+                        }
+                    }
+                },
                 
                 "tags": [
                     "fundamentals"
@@ -2330,6 +2354,14 @@
                         "type": "string"
                     }
                 ],
+                "responses": {
+                    "default": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/OptionsResponse"
+                        }
+                    }
+                },
                 
                 "tags": [
                     "fundamentals"
@@ -2365,6 +2397,14 @@
                         "type": "string"
                     }
                 ],
+                "responses": {
+                    "default": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/OptionsResponse"
+                        }
+                    }
+                },
                 
                 "tags": [
                     "fundamentals"
@@ -2388,6 +2428,14 @@
                         "type": "string"
                     }
                 ],
+                "responses": {
+                    "default": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/OptionsResponse"
+                        }
+                    }
+                },
                 
                 "tags": [
                     "fundamentals"
@@ -2411,6 +2459,14 @@
                         "type": "string"
                     }
                 ],
+                "responses": {
+                    "default": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/OptionsResponse"
+                        }
+                    }
+                },
                 
                 "tags": [
                     "fundamentals"
@@ -2434,6 +2490,14 @@
                         "type": "string"
                     }
                 ],
+                "responses": {
+                    "default": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/OptionsResponse"
+                        }
+                    }
+                },
                 
                 "tags": [
                     "fundamentals"
@@ -2463,6 +2527,14 @@
                         "type": "string"
                     }
                 ],
+                "responses": {
+                    "default": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/OptionsResponse"
+                        }
+                    }
+                },
                 
                 "tags": [
                     "fundamentals"
@@ -2480,6 +2552,14 @@
                         "type": "string"
                     }
                 ],
+                "responses": {
+                    "default": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/OptionsResponse"
+                        }
+                    }
+                },
                 
                 "tags": [
                     "fundamentals"
@@ -2505,6 +2585,7 @@
                         }
                     }
                 },
+                
                 "tags": [
                     "fundamentals"
                 ]
@@ -2581,6 +2662,14 @@
                         "type": "string"
                     }
                 ],
+                "responses": {
+                    "default": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/OptionsResponse"
+                        }
+                    }
+                },
                 
                 "tags": [
                     "fundamentals"
@@ -2604,6 +2693,14 @@
                         "type": "string"
                     }
                 ],
+                "responses": {
+                    "default": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/OptionsResponse"
+                        }
+                    }
+                },
                 
                 "tags": [
                     "fundamentals"
@@ -2629,6 +2726,7 @@
                         }
                     }
                 },
+                
                 "tags": [
                     "financial-news"
                 ]
@@ -2766,6 +2864,14 @@
                         "type": "string"
                     }
                 ],
+                "responses": {
+                    "default": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/OptionsResponse"
+                        }
+                    }
+                },
                 
                 "tags": [
                     "sentiment"
@@ -2783,6 +2889,14 @@
                         "type": "string"
                     }
                 ],
+                "responses": {
+                    "default": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/OptionsResponse"
+                        }
+                    }
+                },
                 
                 "tags": [
                     "sentiment"
