@@ -1777,8 +1777,8 @@
     "host": "https://gateway.eod-stock-api.site",
     "info": {
         "contact": {
-            "email": "info@eod-stock-api.site",
-            "name": "AJ Ndou"
+            "email": "support@eod-stock-api.site",
+            "name": "MJ API Development"
         },
         "description": "\n<h2>Intelligent EOD Stocks API</h2>\n    <p>\n    End of day stock world wide STOCK API, this api is intended for use by web application developers, \n    and service providers looking for up-to-date always available.\n    <ul>\n        <li>Exchange Information</li>\n        <li>Stock Tickers Data</li>\n        <li>End of Day (EOD) Stock Data</li>\n        <li>Fundamental Data</li>\n        <li>Stock Options And Splits Data</li>\n        <li>Financial News API</li>\n        <li>Social Media Trend Data For Stocks</li>\n        <li>Sentiment Analysis for News & Social Media</li>\n    </ul>       \n        The information provided covers more than 150 000 tickers, stocks, mutual funds and more around the world.\n        we provide information for any period, including daily, weekly.\n    </p>\n\n",
         "license": {
