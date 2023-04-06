@@ -1774,7 +1774,7 @@
             "type": "object"
         }
     },
-    "host": "https://gateway.eod-stock-api.site",
+    "host": "gateway.eod-stock-api.site",
     "info": {
         "contact": {
             "email": "support@eod-stock-api.site",
