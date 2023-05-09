@@ -2844,6 +2844,31 @@
                 ]
             }
         },
+"/api/v1/news/articles-by-page/{page}": {
+"get": {
+"description": "Get list of all News Articles by page",
+"parameters": [
+{
+"format": "int32",
+"in": "path",
+"name": "page",
+"required": true,
+"type": "integer"
+}
+],
+"responses": {
+"default": {
+"description": "",
+"schema": {
+"$ref": "#/definitions/NewsResponseList"
+}
+}
+},
+"tags": [
+"financial-news"
+]
+}
+},        
         "/v1/sentiment/trend-setters/stock/{stock_code}": {
             "get": {
                 "description": "Given the stock_code return a list of trend setters for this stock and their sentiments",
@@ -3055,6 +3080,7 @@
                 ]
             }
         },
+        
         "/v1/stocks/exchange/code/{exchange_code}": {
             "get": {
                 "description": "given an exchange_code code return a list of stocks in the exchange_code",
