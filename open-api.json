@@ -3105,6 +3105,37 @@
                 ]
             }
         },
+"/api/v1/stocks/by-exchange-paged/{exchange_code}/{page}": {
+"get": {
+"description": "returns a list of stocks in exchange listed by page",
+"parameters": [
+{
+"in": "path",
+"name": "exchange_code",
+"required": true,
+"type": "string"
+},
+{
+"format": "int32",
+"in": "path",
+"name": "page",
+"required": true,
+"type": "integer"
+}
+],
+"responses": {
+"default": {
+"description": "",
+"schema": {
+"$ref": "#/definitions/StockListResponse"
+}
+}
+},
+"tags": [
+"stocks"
+]
+}
+},        
         "/v1/stocks/exchange/id/{exchange_id}": {
             "get": {
                 "description": "given an exchange_code id return a list of stocks in the exchange_code",
